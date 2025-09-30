@@ -9,20 +9,29 @@ public class CompareNumbers {
     }
 
     public static boolean isEven (int number){
-
-        if (number % 2 == 0){ // Use modulus to determine even or ordd
+        // returns true if even
+        if (number % 2 == 0){ // Use modulus to determine even or odd
             System.out.println(number + " Is Even");
             return true;
         }
-        else {
+        else { // returns false if odd
             System.out.println(number + " Is Odd");
             return (false);
         }
+
+        // same logic with less code
+        // return number % 2 == 0;
     }
 
     public static boolean isPossitive(double number) {
 
-        return true;
-
+        if (number > 0){
+            return true;
+        }
+        else {
+            return false;
+        }
+        // less verbose
+        //return > 0;
     }
 }

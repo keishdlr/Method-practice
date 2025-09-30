@@ -9,6 +9,10 @@ public class Format {
 
         String fullName = formatName(first, last);   // Call the method
         System.out.println(fullName); // Print full name
+
+        // less verbose
+        //System.out.println(formatName("Keisha", "De La Rosa"));
+
     }
 
     public static String formatName(String first, String last) {
